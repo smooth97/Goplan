@@ -5,7 +5,7 @@ export const createProject = project => {
     // async call to database
     firebase
       .firestore()
-      .collection('project')
+      .collection('projects')
       .add({
         ...project,
         authorFirstName: 'Dan',

@@ -31,4 +31,6 @@ FireBase를 사용한 로그인 기능 구현.
 
 ## 과정
 
-[Blog](https://velog.io/@smooth97/-React-Project-GoPlan)
+[[ Goplan ] - React Component 생성](https://velog.io/@smooth97/-Goplan-React-Component-%EC%83%9D%EC%84%B1)
+
+[[ Goplan ] - Redux & Firbase 연동 (Error 해결)](https://velog.io/@smooth97/-Goplan-Redux-Firbase-%EC%97%B0%EB%8F%99)
