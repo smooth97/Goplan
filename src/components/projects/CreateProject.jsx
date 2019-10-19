@@ -23,23 +23,23 @@ class CreateProject extends Component {
     const { auth } = this.props;
     if (!auth.uid) return <Redirect to="/signin" />;
     return (
-      <div className="container">
+      <div className="container create">
         <form onSubmit={this.handleSubmit} className="white">
           <h5 className="grey-text text-darken-3">Create New Project</h5>
           <div className="input-field">
             <label htmlFor="title">Title</label>
             <input type="text" id="title" onChange={this.handleChange} />
           </div>
-          <div className="input-field">
+          <div>
             <label htmlFor="content">Project Content</label>
             <textarea
+              className="textContent"
               id="content"
-              className="materialize-textarea"
               onChange={this.handleChange}
             ></textarea>
           </div>
           <div className="input-field">
-            <button className="btn pink lighten-1 z-depth-0">Create</button>
+            <button className="btn z-depth-0">Create</button>
           </div>
         </form>
       </div>

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&display=swap');
+//font-family: 'Hind', sans-serif;
+@import './variables.scss';
+@import './components/projectList.scss';
+@import './components/nav.scss';
+@import './components/createProject.scss';
+@import './components/auth.scss';
+
+
+* {
+    font-family: 'Hind', sans-serif;
+}

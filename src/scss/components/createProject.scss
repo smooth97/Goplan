@@ -1,0 +1,28 @@
+.container.create {
+    background: gray;
+
+    h5 {
+        margin-top: 50px;
+        margin-bottom: 5%;
+    }
+
+    input {
+        outline-color: $color-purple;
+        border-color: $color-purple;
+        margin-bottom: 3%;
+    }
+
+    textarea {
+        margin-top: 2%;
+        height: 300px;
+        outline-color: $color-purple;
+    }
+
+    button {
+        background: $color-gray;
+    }
+
+    button:hover {
+        background: $color-purple
+    }
+}

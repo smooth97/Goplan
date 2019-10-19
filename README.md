@@ -4,10 +4,8 @@
 
 http://smooth-netflix-portfolio.s3-website.ap-northeast-2.amazonaws.com/
 
-React & FireBase App
-React-Redux 상태관리
-React-router-dom SPA방식 App
-FireBase를 사용한 로그인 기능 구현.
+React & FireBase SPA
+FireBase를 사용해 회원가입, 로그인 기능 구현.
 
 ## Learn
 
@@ -24,6 +22,7 @@ FireBase를 사용한 로그인 기능 구현.
 ## Skills
 
 - 로그인 기능
+- 회원가입 기능
 - 상태 업데이트 기능
 - 포스팅 읽기, 생성, 삭제 기능
 
