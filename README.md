@@ -19,7 +19,7 @@ FireBase를 사용해 회원가입, 로그인 기능 구현.
 ## Tools
 
 - React & Redux
-- Metarialize Css
+- Scss
 
 ## Skills
 
