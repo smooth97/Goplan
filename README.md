@@ -6,8 +6,10 @@
 
 Live - https://goplan-810d7.firebaseapp.com/signin
 
-React & FireBase SPA
-FireBase를 사용해 회원가입, 로그인 기능 구현해 호스팅을 연결했습니다.
+### React & FireBase SPA
+
+Redux로 사용자 인증 상태와 프로젝트 생성 상태관리를 했습니다.
+FireBase를 사용해 회원가입, 로그인 기능을 구현하고 호스팅을 연결했습니다.
 
 ## Learn
 
@@ -26,8 +28,8 @@ FireBase를 사용해 회원가입, 로그인 기능 구현해 호스팅을 연�
 
 - 로그인 기능
 - 회원가입 기능
-- 상태 업데이트 기능
-- 포스팅 읽기, 생성, 삭제 기능
+- 실시간 데이터 상태 업데이트 기능
+- 포스팅 읽기, 생성 기능
 - Firebase 호스팅 연결
 
 ## 과정
