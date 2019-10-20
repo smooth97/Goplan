@@ -1,9 +1,10 @@
 # Goplan
 
-도전해야 하는 일들을 포스팅하고 실현하세요!
-![screenshot](./scss/images/goplan.JPG)
+![screenshot](./src/scss/images/goplan.JPG)
 
-http://smooth-netflix-portfolio.s3-website.ap-northeast-2.amazonaws.com/
+도전해야 하는 일들을 포스팅하고 실현하세요!
+
+Live - http://???
 
 React & FireBase SPA
 FireBase를 사용해 회원가입, 로그인 기능 구현.

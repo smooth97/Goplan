@@ -1,0 +1,46 @@
+.project-details {
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+
+
+    .detail-cotainer {
+        margin: auto;
+        margin-top: 5%;
+        padding: 3%;
+        width: 70%;
+        height: 100vh;
+
+        h1 {
+            font-size: 80px;
+            font-weight: 500;
+            margin-bottom: 7%;
+            color: white;
+        }
+
+        h2 {
+            color: rgb(243, 157, 86);
+            font-weight: 600;
+            margin-bottom: 2%;
+        }
+
+        h3 {
+            color: white;
+            font-weight: 500;
+            letter-spacing: 1px;
+
+            span {
+                color: $color-purple;
+            }
+        }
+
+        p {
+            width: 70%;
+            height: 60%;
+            margin-left: 20%;
+            font-size: 20px;
+            margin-bottom: 10%;
+            color: $color-light-gray;
+        }
+    }
+}

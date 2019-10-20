@@ -9,18 +9,18 @@ const ProjectDetail = props => {
   if (!auth.uid) return <Redirect to="/signin" />;
   if (project) {
     return (
-      <div className="container section project-details">
-        <div className="card z-depth-0">
-          <div className="card content">
-            <span className="card-title">{project.title}</span>
-            <p>{project.content}</p>
-          </div>
-          <div className="card-action gret lighten-4 grey-text">
-            <div>
-              Posted by {project.authorFirstName} {project.authorLastName}
-            </div>
-            <div>2nd September, 2am</div>
-          </div>
+      <div className="project-details">
+        <div className="detail-cotainer">
+          <h2>2nd September, 2am</h2>
+
+          <h1 className="detail-title">{project.title}</h1>
+          <p>{project.content}</p>
+          <h3>
+            Posted by -{' '}
+            <span>
+              {project.authorFirstName} {project.authorLastName}
+            </span>
+          </h3>
         </div>
       </div>
     );
