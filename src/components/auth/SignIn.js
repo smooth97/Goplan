@@ -23,9 +23,9 @@ class SignIn extends Component {
     if (auth.uid) return <Redirect to="/" />;
 
     return (
-      <div className="container login">
-        <form onSubmit={this.handleSubmit} className="white z-depth-2">
-          <h5 className="grey-text text-darken-3">Sign In</h5>
+      <div className="login-container">
+        <form onSubmit={this.handleSubmit}>
+          <h1>Sign In</h1>
           <div className="input-field">
             <label htmlFor="email">Email</label>
             <input type="email" id="email" onChange={this.handleChange} />
@@ -35,10 +35,15 @@ class SignIn extends Component {
             <input type="password" id="password" onChange={this.handleChange} />
           </div>
           <div className="input-field">
-            <button className="btn pink lighten-1 z-depth-0">Login</button>
-            <div className="red-text center">
+            <button>Login</button>
+            <div className="error-text">
               {authError ? <p>{authError}</p> : null}
             </div>
+          </div>
+          <div className="user">
+            <h3>- Use this -</h3>
+            <p>user1@google.co.kr</p>
+            <p>123456</p>
           </div>
         </form>
       </div>

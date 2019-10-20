@@ -13,9 +13,6 @@ const SignedInLinks = props => {
         <a onClick={props.signOut}>Log Out</a>
       </h3>
     </div>
-    //   <NavLink to="/" className="btn btn-floating pink lighten-1">
-    //     승진
-    //   </NavLink>
   );
 };
 

@@ -23,14 +23,19 @@ class CreateProject extends Component {
     const { auth } = this.props;
     if (!auth.uid) return <Redirect to="/signin" />;
     return (
-      <div className="container create">
+      <div className="create-container">
         <form onSubmit={this.handleSubmit} className="white">
-          <h5 className="grey-text text-darken-3">Create New Project</h5>
+          <h1 className="grey-text text-darken-3">Create New Project</h1>
           <div className="input-field">
             <label htmlFor="title">Title</label>
-            <input type="text" id="title" onChange={this.handleChange} />
+            <input
+              type="text"
+              id="title"
+              onChange={this.handleChange}
+              placeholder="What challenges do you have?"
+            />
           </div>
-          <div>
+          <div className="input-field">
             <label htmlFor="content">Project Content</label>
             <textarea
               className="textContent"

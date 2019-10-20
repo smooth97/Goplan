@@ -12,8 +12,9 @@ nav {
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 20px;
-            color: $color-purple;
+            color: white;
             padding: 5px;
+            transition: all 0.2s ease-in;
         }
 
         h2:hover {
@@ -30,6 +31,8 @@ nav {
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 20px;
+            transition: all 0.2s ease-in;
+            cursor: pointer;
 
             a {
                 color: white;

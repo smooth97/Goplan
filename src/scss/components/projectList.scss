@@ -24,9 +24,10 @@
     height: 350px;
     border: 1px solid $gray-3;
     margin: 0 20px 50px 20px;
+    transition: all 0.3s ease-in;
 
     .summary-day {
-        color: rgb(243, 157, 86);
+        color: $color-orange;
         margin-bottom: 10px;
     }
 
@@ -54,5 +55,10 @@
 }
 
 .project-summary:hover {
-    border: 2px solid $color-purple;
+    //    border: 2px solid $color-purple;
+    background: white;
+
+    .summary-title {
+        color: $gray-2;
+    }
 }
