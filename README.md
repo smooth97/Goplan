@@ -4,7 +4,7 @@
 
 도전해야 하는 일들을 포스팅하고 실현하세요!
 
-Live - https://goplan-810d7.firebaseapp.com/signin
+Live - https://goplan-810d7.firebaseapp.com
 
 ### React & FireBase SPA
 
