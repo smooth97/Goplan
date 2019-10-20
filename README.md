@@ -1,6 +1,7 @@
 # Goplan
 
 도전해야 하는 일들을 포스팅하고 실현하세요!
+![screenshot](./scss/images/goplan.JPG)
 
 http://smooth-netflix-portfolio.s3-website.ap-northeast-2.amazonaws.com/
 
