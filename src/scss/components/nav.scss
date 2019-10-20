@@ -1,8 +1,44 @@
-.nav-wrapper {
-    background: $color-purple;
+nav {
+    position: absolute;
+    right: 5%;
+    width: 100px;
+    height: 30vh;
+    background: none;
 
-    .container {
-        font-weight: 600;
-        color: $color-purple;
+    .navContainer {
+        color: white;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: $color-purple;
+            padding: 5px;
+        }
+
+        h2:hover {
+            color: white;
+            background: $color-purple;
+        }
+    }
+
+    .loginMenu {
+
+        h3 {
+            width: 100%;
+            padding: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        h3:hover {
+            background: $color-purple;
+        }
     }
 }

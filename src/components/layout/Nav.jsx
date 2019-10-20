@@ -9,10 +9,10 @@ const Nav = props => {
   //console.log(auth);
   const links = auth.uid ? <SignedInLinks /> : <SignedOutLinks />;
   return (
-    <nav className="nav-wrapper">
-      <div className="container">
-        <Link to="/" className="brand-logo">
-          Goplan
+    <nav>
+      <div className="navContainer">
+        <Link to="/" className="logo">
+          <h2>Goplan</h2>
         </Link>
         {links}
       </div>

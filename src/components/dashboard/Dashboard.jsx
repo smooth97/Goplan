@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import { Redirect } from 'react-router-dom';
+import Profile from '../../scss/images/white.JPG';
 
 class Dashboard extends Component {
   render() {
@@ -13,14 +14,23 @@ class Dashboard extends Component {
     if (!auth.uid) return <Redirect to="/signin" />;
 
     return (
-      <div className="dashboard container">
-        <div className="row">
-          <div className="col s12 m6">
-            <ProjectList projects={projects} />
+      <div className="dashboardContainer">
+        <div className="profile">
+          <div className="image">
+            <img src={Profile} alt="" />
           </div>
-          <div className="col s12 m5 offset-m1"></div>
-          {/* <Notifications /> */}
+          <div>
+            <h1>Goplan</h1>
+            <p>
+              Post the things <br />
+              you need to challenge!
+            </p>
+          </div>
         </div>
+        <div className="lists">
+          <ProjectList projects={projects} />
+        </div>
+        {/* <Notifications /> */}
       </div>
     );
   }

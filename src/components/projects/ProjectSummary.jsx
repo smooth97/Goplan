@@ -2,11 +2,13 @@ import React from 'react';
 
 const ProjectSummary = ({ project }) => {
   return (
-    <div className="card project-summary z-depth-2">
-      <div id="details" className="card-content grey-text text-darken-3">
-        <span className="card-title">{project.title}</span>
-        <p>{project.content}</p>
-        <p className="grey-text">3rd September, 2am</p>
+    <div className="project-summary">
+      <div className="summary-container">
+        <p className="summary-day">3rd September, 2am</p>
+        <div className="summary-contens">
+          <span className="summary-title">{project.title}</span>
+          <p className="summary-content">{project.content}</p>
+        </div>
       </div>
     </div>
   );

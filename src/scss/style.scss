@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&display=swap');
-//font-family: 'Hind', sans-serif;
+// font-family: 'Hind', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Blinker:100,200,300,400,600,700,800&display=swap');
+// font-family: 'Blinker', sans-serif;
 @import './variables.scss';
 @import './components/projectList.scss';
 @import './components/nav.scss';
 @import './components/createProject.scss';
 @import './components/auth.scss';
+@import './components/dashboard.scss';
 
 
 * {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Blinker', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $gray-1;
 }
