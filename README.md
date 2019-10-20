@@ -21,6 +21,7 @@ FireBase를 사용해 회원가입, 로그인 기능을 구현하고 호스팅�
 ## Tools
 
 - React & Redux
+- React - Router
 - Redux - thunk
 - Scss
 
