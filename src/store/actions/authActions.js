@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 
+// 로그인
 export const signIn = credentials => {
   return (dispatch, getState) => {
     firebase
@@ -14,6 +15,7 @@ export const signIn = credentials => {
   };
 };
 
+// 로그아웃
 export const signOut = () => {
   return (dispatch, getState) => {
     firebase
@@ -25,6 +27,7 @@ export const signOut = () => {
   };
 };
 
+// 회원가입
 export const signUp = newUser => {
   const firestore = firebase.firestore();
   return (dispatch, getState) => {

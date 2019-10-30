@@ -15,10 +15,10 @@ export const createProject = project => {
       })
       .then(() => {
         // callback 위 작업이 실행되면 어떤 작업을 할 것인지
-        dispatch({ type: 'CREATE_PROJECT', project });
+        dispatch({ type: 'CREATE_PROJECT', project }); // 프로젝트 생성
       })
       .catch(err => {
-        dispatch({ type: 'CREATE_PROJECT', err });
+        dispatch({ type: 'CREATE_PROJECT_ERROR', err }); // 에러
       });
   };
 };

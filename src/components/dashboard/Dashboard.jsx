@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Notifications from './Notification';
 import ProjectList from '../projects/ProjectList';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
@@ -9,8 +8,10 @@ import Profile from '../../scss/images/white.JPG';
 
 class Dashboard extends Component {
   render() {
+    // 프로젝트와 인증 상태
     const { projects, auth } = this.props;
-    // 로그인 하지 않으면 signin 페이지만 보여줌
+
+    // 로그인 하지 않으면 signin 페이지만 보여준다.
     if (!auth.uid) return <Redirect to="/signin" />;
 
     return (
@@ -30,12 +31,12 @@ class Dashboard extends Component {
         <div className="lists">
           <ProjectList projects={projects} />
         </div>
-        {/* <Notifications /> */}
       </div>
     );
   }
 }
 
+// 프로젝트와 인증 상태 가져오기
 const mapStateToProps = state => {
   return {
     projects: state.firestore.ordered.projects,
